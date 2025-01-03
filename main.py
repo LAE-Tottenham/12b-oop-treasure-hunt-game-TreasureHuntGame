@@ -1134,10 +1134,10 @@ world3 = Place("Broughton", True, [], True, False, False, [kseniya, elimar])
 world4 = Place("Caister", True, [], True, False, False, [keoni])
 ###############################
 #Bosses
-goblinBoss = Boss_Enemy("Bokoblin", "Goblin Leader", (random.randint(50, 70)), (random.randint(30,40)), (random.randint(100, 140)), 120, treasure1, (random.randint(41, 45)), "Smash", world2, 1)
-skeletonBoss = Boss_Enemy("Osseus", "Skeleton Leader", (random.randint(70, 100)), (random.randint(40, 50)), (random.randint(200, 300)), 120, treasure2, (random.randint(55, 61)), "Back Breaker", world3, 2)
-antQueen = Boss_Enemy("The Ant Queen", "Ant Queen", (random.randint(100, 120)), (random.randint(71, 75)), (random.randint(300, 400)), 120, treasure3, (random.randint(76, 80)), "Colony", world4, 3)
-spiderBoss = Boss_Enemy("Widow", "Spider Boss", (random.randint(120, 140)), (random.randint(76, 80)), 500, 140, treasure4, (random.randint(81, 85)), "Spider's Web", "", 4)
+goblinBoss = Boss_Enemy("Bokoblin", "Goblin Leader", (random.randint(90, 110)), (random.randint(30,40)), (random.randint(100, 140)), 120, treasure1, (random.randint(41, 45)), "Smash", world2, 1)
+skeletonBoss = Boss_Enemy("Osseus", "Skeleton Leader", (random.randint(190, 210)), (random.randint(40, 50)), (random.randint(200, 300)), 120, treasure2, (random.randint(55, 61)), "Back Breaker", world3, 2)
+antQueen = Boss_Enemy("The Ant Queen", "Ant Queen", (random.randint(290, 310)), (random.randint(71, 75)), (random.randint(300, 400)), 120, treasure3, (random.randint(76, 80)), "Colony", world4, 3)
+spiderBoss = Boss_Enemy("Widow", "Spider Boss", (random.randint(390, 410)), (random.randint(76, 80)), 500, 140, treasure4, (random.randint(81, 85)), "Spider's Web", "", 4)
 ###############################
 #SubAreas
 shop1 = Place("Lerwick Shop", False, {shop1_potion1 : 20, shop1_potion2 : 20, shop1_consumable1 : 15, shop1_consumable2 : 15, shop1_weapon : 120, shop1_armour : 120}, False, False, True, [])
