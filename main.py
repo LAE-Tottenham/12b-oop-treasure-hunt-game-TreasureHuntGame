@@ -1,12 +1,12 @@
-from places import Place, story
 import random
+from places import Place, story
 from player import Player
 from enemies import Boss_Enemy, Enemies
 from items import Item, Healing, Weapon_Armour
 from npc import NPC
 from quests import Quest
 
-#pyifglet is needed
+#pyifglet needs to be downloaded
 
 #Set Up
 ###Key items
@@ -181,5 +181,4 @@ player.add_fast_travel_location(world2)
 player.add_fast_travel_location(world3)
 player.add_fast_travel_location(world4)
 
-player._baseStrength = 1000000
 world1.get_summary(player)
